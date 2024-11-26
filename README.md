@@ -6,6 +6,8 @@
 
 **Agent Watch** is an AI AgentOps monitoring library designed for Crew AI applications. It captures essential metrics such as token counts, costs, execution time, resource utilization, and carbon emissions. Additionally, it offers comprehensive logging and visualization tools, enabling both textual and graphical representations of the collected data via a Command-Line Interface (CLI) or a Streamlit dashboard.
 
+![CLI Output](./banner.png)
+
 ## Table of Contents
 
 - [Features](#features)
