@@ -1,0 +1,16 @@
+2024-11-26 12:06:36,214 - INFO - Input Tokens: 2001
+2024-11-26 12:06:36,214 - INFO - Output Tokens: 2501
+2024-11-26 12:06:36,215 - INFO - Total Tokens: 4502
+2024-11-26 12:08:51,274 - INFO - Monitoring started.
+2024-11-26 12:08:51,276 - INFO - Input Tokens: 2001
+2024-11-26 12:08:51,276 - INFO - Output Tokens: 2501
+2024-11-26 12:08:51,276 - INFO - Total Tokens: 4502
+2024-11-26 12:08:51,277 - INFO - Monitoring ended.
+2024-11-26 12:08:51,277 - INFO - Total Time: 0.00 seconds
+2024-11-26 12:08:51,277 - INFO - Input Tokens: 2001
+2024-11-26 12:08:51,278 - INFO - Output Tokens: 2501
+2024-11-26 12:08:51,278 - INFO - Total Tokens: 4502
+2024-11-26 12:08:51,281 - INFO - Cost: $0.030013
+2024-11-26 12:08:51,281 - INFO - CPU Usage: []
+2024-11-26 12:08:51,281 - INFO - Memory Usage: [] MB
+2024-11-26 12:08:51,282 - INFO - Carbon Emissions: 0.450200 kg CO2

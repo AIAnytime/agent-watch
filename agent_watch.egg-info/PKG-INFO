@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: agent-watch
+Version: 0.1.2
+Summary: An operational monitoring library for Crew AI applications.
+Home-page: https://github.com/AIAnytime/agent-watch
+Author: AI Anytime
+Author-email: sonu@aianytime.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: matplotlib
+Requires-Dist: streamlit
+Requires-Dist: tiktoken
+
 # Agent Watch
 
 **Agent Watch** is an operational monitoring library for Crew AI applications. It captures essential metrics such as token counts, costs, execution time, resource utilization, carbon emissions, and detailed logs. Additionally, it offers both textual and visual representations of the collected data via a Command-Line Interface (CLI) or a Streamlit dashboard.
