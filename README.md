@@ -46,14 +46,7 @@
 6. **Visualization**
    - CLI summaries
    - Streamlit dashboard for detailed insights
-  
-## Installation
 
-You can install **Agent Watch** via [PyPI](https://pypi.org/project/agent-watch/) using `pip`:
-
-```bash
-pip install agent-watch
-```
 ## Installation
 
 You can install **Agent Watch** via [PyPI](https://pypi.org/project/agent-watch/) using `pip`:
