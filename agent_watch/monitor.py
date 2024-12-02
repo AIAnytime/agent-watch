@@ -11,7 +11,7 @@ import tiktoken
 from .visualizer import Visualizer 
 
 class AgentWatch:
-    def __init__(self, model: str, enable_monitoring: bool = True):
+    def __init__(self, model: str, enable_monitoring: bool = True, encoding_name: str = "cl100k_base"):
         self.model = model
         self.start_time = None
         self.end_time = None
@@ -26,7 +26,10 @@ class AgentWatch:
         self.monitoring = False
         self.monitor_thread = None
         self.carbon_emissions = 0.0
-        self.tokenizer = tiktoken.get_encoding("cl100k_base")  # Adjust encoding as needed
+        try:
+            self.tokenizer = tiktoken.encoding_for_model(model)
+        except KeyError:
+            self.tokenizer = tiktoken.get_encoding(encoding_name)  # Default to "cl100k_base" if model is not recognized
         self.enable_monitoring = enable_monitoring
 
     def start(self):
@@ -95,8 +98,8 @@ class AgentWatch:
 
 
 class AgentWatchExtended(AgentWatch):
-    def __init__(self, model: str, enable_monitoring: bool = True):
-        super().__init__(model, enable_monitoring)
+    def __init__(self, model: str, enable_monitoring: bool = True, encoding_name: str = "cl100k_base"):
+        super().__init__(model, enable_monitoring, encoding_name)
         self.visualizer = Visualizer(self)
 
     def visualize(self, method='cli'):
