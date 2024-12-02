@@ -98,8 +98,8 @@ class AgentWatch:
 
 
 class AgentWatchExtended(AgentWatch):
-    def __init__(self, model: str, enable_monitoring: bool = True):
-        super().__init__(model, enable_monitoring)
+    def __init__(self, model: str, enable_monitoring: bool = True, encoding_name: str = "cl100k_base"):
+        super().__init__(model, enable_monitoring, encoding_name)
         self.visualizer = Visualizer(self)
 
     def visualize(self, method='cli'):
