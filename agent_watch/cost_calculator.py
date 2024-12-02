@@ -89,6 +89,22 @@ class CostCalculator:
         "claude-3-5-sonnet-20241022": {
             "input": 3.00 / 1_000_000,
             "output": 15.00 / 1_000_000
+        },
+        "gemini-pro": {
+            "input": 0.5 / 1_000_000,
+            "output": 0.5 / 1_000_000
+        },
+        "gemini-1.0-pro": {
+            "input": 0.5 / 1_000_000,
+            "output": 0.5 / 1_000_000
+        },
+        "gemini-1.5-pro": {
+            "input": 1.25 / 1_000_000,
+            "output": 5.00 / 1_000_000
+        },
+        "gemini-1.5-flash": {
+            "input": 0.075 / 1_000_000,
+            "output": 0.30 / 1_000_000
         }
     }
 
